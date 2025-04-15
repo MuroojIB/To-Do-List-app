@@ -126,3 +126,18 @@ body {
   background: transparent;
   font-size: 24px;
 }
+
+.List-items .list-item .btn-edit {
+  border: none;
+  cursor: pointer;
+  color: var(--spanish-gray);
+  background: transparent;
+  font-size: 20px;
+  margin-left: 10px; 
+}
+
+.List-items .list-item .actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
