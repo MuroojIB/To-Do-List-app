@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray: #333;
+  --green: #4BAE4F;
+  --light-gray: #edeef0;
+  --pink-lavender: #fdc8e4;
+  --deep-rose: #9a254e;
+  --spanish-gray: #949494;
+}
+
+body {
+  font-family: "Poppins", serif;
+  color: #fff; 
+}
+
+.container {
+  background-color: var(--pink-lavender);
+  min-height: 100vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.todo-list {
+  background-color: var(--deep-rose);
+  max-width: 540px;
+  margin: 100px auto 20px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.todo-list .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list .title img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.form .form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 15px;
+  background-color: var(--light-gray);
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  outline: none;
+}
+
+.form .btn-Add {
+  border: none;
+  padding: 12px 30px;
+  background-color: var(--green); 
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.List-items .list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.List-items .list-item .custom-checkbox {
+  margin: 35px;
+  position: relative;
+}
+
+.List-items .list-item .custom-checkbox .checkmark,
+.List-items .list-item .custom-checkbox svg 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.List-items .list-item .custom-checkbox .checkmark{
+  border: 1.5px solid #fff;
+}
+
+.List-items .list-item .custom-checkbox svg {
+  background-color: var(--green);
+  padding: 3px;
+}
+
+.List-items .list-item .custom-checkbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+  opacity: 0;
+}
+
+.List-items .list-item .description.selected{
+  color: #fdc8e4;
+  text-decoration: line-through;
+}
+
+.List-items .list-item .btn-close{
+  border: none;
+  cursor: pointer;
+  color: var(--spanish-gray);
+  background: transparent;
+  font-size: 24px;
+}
