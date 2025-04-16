@@ -1,4 +1,4 @@
-# T1: To-Do List App
+# To-Do List App
 
 A simple, interactive task management application built as part of my front-end training. This project enables users to:
 
