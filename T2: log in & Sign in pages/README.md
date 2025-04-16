@@ -1,4 +1,4 @@
-# T2: Login & Sign Up Pages
+Login & Sign Up Pages
 
 This project is an evolution of a previous version, expanding and improving upon the original design. It introduces a dedicated login page and a new sign-up page, along with enhanced input validation to streamline the authentication process.
 
