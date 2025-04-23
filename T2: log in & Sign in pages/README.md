@@ -13,9 +13,9 @@ This project is an evolution of a previous version, expanding and improving upon
 
 ## File Structure Overview
 
-- **HTML Files:**
-  - `login.html` – Interface for user login.
-  - `signup.html` – Interface for user registration.
+- **JSX Files:**
+  - `login.jsx` – Interface for user login.
+  - `signup.jsx` – Interface for user registration.
 - **CSS Folder:** Contains all the stylesheets for consistent design.
 - **JavaScript Folder:** Houses scripts for managing form behavior and validation.
 
